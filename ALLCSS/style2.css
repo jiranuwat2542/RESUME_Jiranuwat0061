@@ -1,0 +1,95 @@
+
+.nav {
+  padding: 20px;
+  font-size: 30px;
+  background-color: rgb(243, 240, 240);
+  
+}
+.nav-logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.download_Resume{
+border-radius: 20px;
+ height: 50px;
+width: 100%;
+background-color: black;
+ margin:2% 0 0 0;
+ 
+  
+}
+.shadow__btn {
+ 
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0,140,255);
+  box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
+}
+.main{ 
+  margin-top: 80px;
+  border-radius: 50px;
+  background-color: rgb(9, 41, 59);
+  height: 500px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+.photokmutnb{
+  margin-top: 40px;
+  border-radius: 30px;
+  width: 200px;
+}
+.T1{
+  
+  font-family: 'Kanit', sans-serif;;
+  font-size: 20px;
+  color: rgba(240, 248, 255, 0.301)
+}
+.T2{
+  font-family: 'Kanit', sans-serif;
+  font-size:65px;
+  color: aliceblue
+}
+.T3 {
+  box-shadow: 0 0 10px;
+  font-family: 'Kanit', sans-serif;
+  padding-left: 20px;
+}
+.T6{
+  box-shadow: 0 0 10px;
+  font-family: 'Kanit', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.T7{
+  
+  padding-left: 20px;
+  box-shadow: 0 0 10px;
+  font-family: 'Kanit', sans-serif;
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
