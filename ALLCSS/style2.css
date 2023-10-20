@@ -1,4 +1,6 @@
-
+.bg{
+  background-color: #29262694;
+}
 .nav {
   padding: 20px;
   font-size: 30px;
@@ -97,6 +99,8 @@ background-color: black;
 }
 
 .grid{
+  
+  background-color: #EEF0FD;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
