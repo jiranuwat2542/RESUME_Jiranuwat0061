@@ -7,12 +7,19 @@ width: 100%;
 
 }
 .nav {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     background-color: rgb(243, 240, 240);
     
   }
 .grid{
-  margin-top: 25%;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  margin-top: 20%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.photonav{
+  object-fit: cover;
+  border-radius: 100% ;
+  box-shadow: 0 0 10px;
+  width: 60px;
+  height: auto;
 }
